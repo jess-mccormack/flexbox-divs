@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Make me into a grid!</title>
+        <title>Flexbox Grid Lesson</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -17,21 +17,31 @@
         <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</as> to improve your experience.</p>
-        <![endif]-->
+      <div class="flex-container">
+        <header>
+            <h1>Hi. I'm Jessica</h1>
+        </header>
 
-        <section class="wrapper">
-            <div class="div-1">
-                I was born and raised in Atlanta, but have spent many years in other parts of the country. I went to school in Texas, spent a few years in LA and then moved to Brooklyn for the better part of a decade.
+        <main>
+            <p>I am a <span>responsive designer and developer</span> who thrives on visual storytelling. When I'm not working, pursuing side projects or getting lost in the rabbit hole of podcasts and audiobooks, I can be found traveling, cooking or teaching myself to embroider!</p>
+        </main>
+
+        <section>
+            <div id="div-1">
+                I was born and raised in Atlanta, but have spent many years in other parts of the country. I went to school in Texas, spent two in LA and then moved to NYC for the better part of a decade.
             </div>
-            <div class="div-2">
-                My passion: I LOVE to travel. I have been to 44 countries and there are so many more on my list! My favorite place in the world is a tie between Mexico City and the Abaco Islands in the Bahamas.
+            <div id="div-2">
+                My passion: I LOVE to travel. I have been to 44 countries and there are so many more on my list! My favorite places in the world are Mexico City and the Abaco Islands in the Bahamas.
             </div>
-            <div class="div-3">
-                A fun fact: In additon to taking all of these awesome Skillcrush classes, I am also teaching myself how to embroider. I love the creativity and designing modern approches to a traditionally stuffy craft!
+            <div id="div-3">
+                In additon to taking all of these awesome Skillcrush classes, I am also teaching myself how to embroider. I love designing modern approches to a traditionally stuffy craft.
             </div>
         </section>
+
+        <footer>
+            <a href="https://github.com/jess-mccormack" target="_blank">See my work on Github</a>
+        </footer>
+      </div> <!--flex container-->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
